@@ -318,7 +318,7 @@ class MyUtilityUpdater
 }
 ```
 
-Note if you miss `= null` and the applicationcalls the original method with `null`, PHP would throw a fatal error as your plugin does not accept `null`.
+Note if you miss `= null` and the application calls the original method with `null`, PHP would throw a fatal error as your plugin does not accept `null`.
 
 You are responsible for forwarding the arguments from the plugin to the `proceed` callable. If you are not using/modifying the arguments, you could use variadics and argument unpacking to achieve this:
 
